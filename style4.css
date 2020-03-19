@@ -103,7 +103,7 @@ header
 }
 body
 {
-    font-family: 'Roboto Light', arial;
+    font-family: 'Roboto', sans-serif;
     border: 1px solid #cfcfcf;
     margin: auto;
     max-width: 900px;
