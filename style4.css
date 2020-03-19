@@ -1,67 +1,72 @@
-:root{
-  background-color: #ffff;
-  color: #4a3232;
-}
 
+-webkit-keyframes slideInLeft
 
-
-@-webkit-keyframes slideInLeft
 {
-  0% {
+ 0%
+ {
   -webkit-transform: translateX(-100%);
   transform: translateX(-100%);
   visibility: visible;
-  }
-  100% {
-  -webkit-transform: translateX(0);
-  transform: translateX(0);
-  }
-}
-  @keyframes slideInLeft
-{
-  0% {
-  -webkit-transform: translateX(-100%);
-  transform: translateX(-100%);
-  visibility: visible;
-  }
-  100% {
+ }
+100%
+ {
   -webkit-transform: translateX(0);
   transform: translateX(0);
   }
 }
 
-
-
-@-webkit-keyframes rotateOut
+@keyframes slideInLeft
 {
-  0% {
-  -webkit-transform-origin: center;
-  transform-origin: center;
-  opacity: 1;
-  }
-  100% {
-  -webkit-transform-origin: center;
-  transform-origin: center;
-  -webkit-transform: rotate3d(0, 0, 1, 200deg);
-  transform: rotate3d(0, 0, 1, 200deg);
-  opacity: 0;
-  }
-  }
- 
-  @keyframes rotateOut {
-  0% {
-  -webkit-transform-origin: center;
-  transform-origin: center;
-  opacity: 1;
-  }
-  100% {
-  -webkit-transform-origin: center;
-  transform-origin: center;
-  -webkit-transform: rotate3d(0, 0, 1, 200deg);
-  transform: rotate3d(0, 0, 1, 200deg);
-  opacity: 0;
-  }
+ 0%
+ {
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
+  visibility: visible;
+ }
+100%
+ {
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+ }
 }
+
+
+
+-webkit-keyframes rotateOut
+{ 
+0%
+ {
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+ }
+100%
+ {
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  -webkit-transform: rotate3d(0, 0, 1, 200deg);
+  transform: rotate3d(0, 0, 1, 200deg);
+  opacity: 0;
+ }
+} 
+@keyframes rotateOut
+{
+0%
+ {
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+ }
+100%
+ {
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  -webkit-transform: rotate3d(0, 0, 1, 200deg);
+  transform: rotate3d(0, 0, 1, 200deg);
+  opacity: 0;
+ }
+}
+
 * {
     box-sizing: border-box;
 }
@@ -123,15 +128,7 @@ main
 }
 
 #bloc_gauche h3
-{
-
-    background-color: #404040;
-    color: #feca07;
-    text-align: center;
-    padding: 4%;
-    margin: 0;
-    border-right: 1px solid #607D8B;
-}
+{background-color: #404040;color: #feca07;text-align: center;padding: 4%;margin: 0px;border-right: 1px solid #607D8B;}
 
 #contact
 {
@@ -143,7 +140,7 @@ main
 
 #profil
 {
-  height: 53%;
+  height: 58%;
   margin-left: 10%;
   margin-right: 10%;
   text-align: justify;
@@ -224,14 +221,14 @@ main
 .p
 {
   width: 80%;
-  text-align:left
+  text-align:left;
   font-weight:lighter;
+  margin-top: -5%;
 }
 .title
 {
   font-size: 1.1em;
-  font-weight:bold
-
+  font-weight:bold;
 }
 .fa-ciercle
 {
