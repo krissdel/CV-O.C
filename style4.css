@@ -145,10 +145,6 @@ main
   margin-right: 10%;
   text-align: justify;
 }
-
-
-
-
 .a
 {
   display: flex;
@@ -216,14 +212,12 @@ main
   margin-left:4%;
   font-size:xx-small;
 }
-
-
 .p
 {
   width: 80%;
   text-align:left;
   font-weight:lighter;
-  margin-top: -5%;
+  /* margin-top: -3%; */
 }
 .title
 {
@@ -243,8 +237,6 @@ main
  padding-top: 5%;
  padding-bottom: 5%;
 }
-
-
 .recom
 {
   width: 100%;
@@ -279,7 +271,10 @@ h1 > span
     border-bottom: 2px solid #feca07;
 }
 
-
+h4
+{
+  margin-top:auto;
+}
 
 h5
 {
