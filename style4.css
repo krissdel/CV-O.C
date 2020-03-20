@@ -1,4 +1,7 @@
-
+:root{
+ --primary:  #feca07;
+ color: #000000;
+}
 -webkit-keyframes slideInLeft
 
 {
@@ -87,7 +90,7 @@ header
 {
   width: 50%;
   text-align: center;
-  background-color: #feca07;
+  background-color: var(--primary);
 }
 #nom
 {
@@ -117,14 +120,11 @@ main
 
 /*--------bloc_gauche-------*/
 
-.cote
-{
- background-color: #feca07; 
-}
+
 #bloc_gauche
 {
   width: 50%;
-  background-color: #feca07;
+  background-color:var(--primary);
 }
 
 #bloc_gauche h3
@@ -165,7 +165,7 @@ main
     height: 50px;
     border: 2px solid #404040;
     border-radius: 50%;
-    color:  #404040;
+    color: #404040;
     margin-top: 30%;
 }
 
@@ -236,7 +236,7 @@ main
 }
 .fa-circle,.fa-dot-circle-o
 {
-  color: #feca07;
+  color:var(--primary);
 }
 .experience
 {
@@ -309,7 +309,7 @@ img
 
 .fa-briefcase,.fa-graduation-cap,.fa-pencil
 {
-   color: #feca07;
+   color: var(--primary);
 }
 
 .fa:hover
@@ -350,7 +350,7 @@ img
     {
     width: 100%;
     text-align: center;
-    background-color: #feca07;
+    background-color: var(--primary);
     padding-bottom: 8%;
     padding-top: 7%;
     }
