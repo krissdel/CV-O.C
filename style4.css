@@ -37,7 +37,9 @@
  }
 }
 
-
+* {
+    box-sizing: border-box;
+}
 
 
 
@@ -167,6 +169,7 @@ main
   width: 60%;
   padding-left: 4%;
   font-weight: bold;
+  font-size: 0.9em;
 }
 .dote  
 {
@@ -185,7 +188,7 @@ main
 }
 .title
 {
-  font-size: 1.1em;
+  font-size: 1em;
   font-weight:bold;
 }
 .fa-ciercle
