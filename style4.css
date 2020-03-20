@@ -2,21 +2,7 @@
  --primary:  #feca07;
  color: #000000;
 }
--webkit-keyframes slideInLeft
 
-{
- 0%
- {
-  -webkit-transform: translateX(-100%);
-  transform: translateX(-100%);
-  visibility: visible;
- }
-100%
- {
-  -webkit-transform: translateX(0);
-  transform: translateX(0);
-  }
-}
 
 @keyframes slideInLeft
 {
@@ -33,25 +19,6 @@
  }
 }
 
-
-
--webkit-keyframes rotateOut
-{ 
-0%
- {
-  -webkit-transform-origin: center;
-  transform-origin: center;
-  opacity: 1;
- }
-100%
- {
-  -webkit-transform-origin: center;
-  transform-origin: center;
-  -webkit-transform: rotate3d(0, 0, 1, 200deg);
-  transform: rotate3d(0, 0, 1, 200deg);
-  opacity: 0;
- }
-} 
 @keyframes rotateOut
 {
 0%
@@ -70,9 +37,7 @@
  }
 }
 
-* {
-    box-sizing: border-box;
-}
+
 
 
 
